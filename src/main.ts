@@ -1,9 +1,9 @@
-import { sayHello } from "./greet";
+/// <reference path="../typings/angularjs/angular.d.ts" />
 
-function showHello(divName: string, name: string) {
-    const elt = document.getElementById(divName);
-    elt.innerText = sayHello(name);
+namespace App {
+    'use strict';
+
+    angular.module('app', [
+        
+    ]);
 }
-let test2 = 'test';
-console.log(test2);
-showHello("greeting", "TypeScript");

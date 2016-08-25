@@ -1,0 +1,21 @@
+{
+  "name": "ts_test",
+  "description": "test",
+  "main": "dist/main.js",
+  "authors": [
+    "Romanell0 <diesel155@mail.ru>"
+  ],
+  "license": "ISC",
+  "homepage": "https://github.com/Romanell0/typescript_test",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular": "^1.5.8",
+    "jquery": "^3.1.0"
+  }
+}
